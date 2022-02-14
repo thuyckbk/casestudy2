@@ -1,0 +1,183 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.hr-body{
+    border: 3px solid orange;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.header-top{
+    background: blue;
+    height: 45px;
+
+    margin: 0;
+    padding: 0;
+
+}
+.header-top a{
+    text-decoration: none;
+}
+.header-top i{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header-top .header-contact-text, .header-phone-text{
+    font-size: 30px;
+    color: white;
+}
+.contact-top{
+    padding-right: 10px;
+}
+.phone-top i{
+    border-left: 2px white solid;
+    padding-left: 30px;
+}
+.icon-top i{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top:15px;
+}
+.nav-item{
+    padding-left: 5px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.carousel-item{
+/*    height: 450px;*/
+    width: 100%;
+}
+/*section-1*/
+.card{
+    padding: 10px;
+}
+.card-body{
+    padding: 15px 0 0 0;
+}
+/*.card img{
+    height: 300px;
+}*/
+.card button{
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    background: white;
+    color: tomato;
+}
+.card button:hover{
+    background: greenyellow;
+}
+.card a{
+    font-size: 23px;
+    font-weight: bold;
+}/*form info*/
+
+.form-info{
+    margin:0;
+    padding:5px;
+    border:3px orange solid;
+}
+.form-info h4 {
+    padding:5px;
+    font-size:20px;
+    background:orange;
+    color:white;
+}
+.form-info .hotline {
+    margin-top:10px;
+    padding:3px;
+    font-size:20px;
+    background:orange;
+    color:white;
+}
+
+/* end form info*/
+/*section-2*/
+.section-2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+.row1 .hotline{
+    margin-bottom:10px;
+    padding:3px;
+    font-size:20px;
+    background:orange;
+    color:white;
+}
+.row1 .card{
+    border: 2px orange solid;
+    color: orange;
+}
+.row1 .card-body h3{
+
+    font-size: 35px;
+    font-weight: bold;
+}
+.row2 .card-facebook{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.row2 .text-face{
+    background: green;
+    color: white;
+    padding: 15px 5px 5px 5px;
+    margin-bottom: 10px;
+}
+/*end section-2*/
+
+
+/*footer*/
+footer{
+
+    background-image: url("../img/dong-bac-bich-dong-bac-giang-13.jpg");
+}
+.footer{
+    padding-top: 50px;
+    background: rgba(4, 68, 207, 0.781);
+}
+.col-left{
+    border-right: 2px rgb(255, 255, 255) solid;
+}
+.bottom-footer {
+    background: rgb(50, 15, 131);
+    color: rgb(255, 255, 255) ;
+    margin-top: 20px;
+}
+
+/* end footer*/
+
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 82.3%;
+	background: rgba(243, 167, 52, 0.733);
+	z-index: 999;
+	transition: all 1.5s ease;
+
+}
+@media only screen and (max-width:1440px){
+    .sticky{
+        width: 82.3%;
+    }
+}
+@media only screen and (max-width:1024px){
+    .sticky{
+        width: 90.5%;
+    }
+}
+@media only screen and (max-width:768px){
+    .sticky{
+        width: 80.2%;
+    }
+}
+@media only screen and (max-width:425px){
+    .sticky{
+        width: 73.5%;
+    }
+}
